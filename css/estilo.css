@@ -19,10 +19,11 @@ body {
     background-color: rgb(167, 164, 164);
 }
 
+/* CABEÇALHO */
 header {
     background-color: black;
     background-image: linear-gradient(to right, black 30%, #191919 50%);
-    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.205);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.356);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,6 @@ div.logo > img {
 /* MENU */
 .nav {
     background-color: var(--tab);
-
     width: 40vw;
     height: 80px;
     padding: 0 1.5em;
@@ -130,9 +130,4 @@ div.logo > img {
 
 .nav__link:nth-child(3).active ~ .nav__light {
     background-color: var(--contact);
-}
-
-/* PRINCIPAL */
-main#principal {
-    background-color: rgb(167, 164, 164);
 }
