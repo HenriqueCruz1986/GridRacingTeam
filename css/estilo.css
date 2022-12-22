@@ -15,22 +15,34 @@
     list-style: none;
 }
 
+body {
+    background-color: rgb(167, 164, 164);
+}
+
 header {
+    background-color: black;
+    background-image: linear-gradient(to right, black 30%, #191919 50%);
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.205);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
+    overflow: hidden;
 }
 
 li {
     display: inline-block;
 }
 
+div.logo > img {
+    width: 160px;
+}
+
 /* MENU */
 .nav {
     background-color: var(--tab);
-    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.205);
-    width: 50vw;
+
+    width: 40vw;
     height: 80px;
     padding: 0 1.5em;
     position: relative;
@@ -51,7 +63,7 @@ li {
 
 .nav__links a {
     color: #fff;
-    font-size: 2.5em;
+    font-size: .5em;
     opacity: 0.5;
 }
 
@@ -118,4 +130,9 @@ li {
 
 .nav__link:nth-child(3).active ~ .nav__light {
     background-color: var(--contact);
+}
+
+/* PRINCIPAL */
+main#principal {
+    background-color: rgb(167, 164, 164);
 }
