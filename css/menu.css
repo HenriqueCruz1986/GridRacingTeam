@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* MENU */
+.nav {
+    width: 100vw;
+    height: 100px;
+    padding: 0 1.5em;
+    position: relative;
+    left: 25%;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.nav__links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__links a {
+    color: #fff;
+    font-size: .5em;
+    opacity: 0.5;
+    padding: 0 70px;
+    margin-right: -40px;
+}
+
+.nav__light {
+    position: absolute;
+    top: 0;
+    left: 23em;
+    background-color: #fff;
+    width: 3em;
+    height: .4em;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+
+    transition: .3s ease;
+}
+
+.nav__light::before {
+    content: '';
+    width: 7em;
+    height: 6em;
+    position: absolute;
+    top: .4em;
+    clip-path: polygon(30% 0, 70% 0, 100% 100%, 0% 100%);
+}
+
+.nav__link.active a {
+    opacity: 1;
+}
+
+.nav__link.active a #home-icon {
+    color: var(--home);
+    text-shadow: 0 0 15px var(--home),
+    0 0 30px var(--home),
+    0 0 45px var(--home),
+    0 0 60px var(--home);
+}
+
+.nav__link:nth-child(1).active ~ .nav__light {
+    background-color: var(--home);
+}
+
+.nav__link.active a #pilotos-icon {
+    color: var(--piloto);
+    text-shadow: 0 0 15px var(--piloto),
+    0 0 30px var(--piloto),
+    0 0 45px var(--piloto),
+    0 0 60px var(--piloto);
+}
+
+.nav__link:nth-child(2).active ~ .nav__light {
+    background-color: var(--piloto);
+}
+
+.nav__link.active a #contact-icon {
+    color: var(--contact);
+    text-shadow: 0 0 15px var(--contact),
+    0 0 30px var(--contact),
+    0 0 45px var(--contact),
+    0 0 60px var(--contact);
+}
+
+.nav__link:nth-child(3).active ~ .nav__light {
+    background-color: var(--contact);
+}
