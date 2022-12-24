@@ -2,12 +2,13 @@
 /* SLIDES */
 .slider {
     margin: 40px auto;
-    width: 800px;
-    height: 400px;
+    max-width: 800px;
+    max-height: 400px;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.589);
     border-radius: 20px;
     box-shadow: 0px 0px 25px #ff0000;
+
 }
 
 .slides {
