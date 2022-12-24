@@ -31,9 +31,12 @@
 
 .nav__link a {
     color: #fff;
-    font-size: 2.5rem;
     opacity: 0.5;
     padding: 0 50px;
+}
+
+.nav__link span {
+    font-size: 2.5rem;
 }
 
 .nav__light {
@@ -41,7 +44,7 @@
     top: 0;
     left: 1.3em;
     background-color: #fff;
-    width: 3em;
+    width: 5em;
     height: .4em;
     border-radius: 2px;
 
