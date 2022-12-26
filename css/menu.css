@@ -103,3 +103,19 @@
 .nav__link:nth-child(3).active ~ .nav__light {
     background-color: var(--contact);
 }
+
+@media screen and (max-width: 600px) {
+    .nav {
+        width: 14em;
+        height: 7em;
+        padding: 0 .5em 0 0;
+    }
+
+    .nav__link a {
+        padding: 0 20px;
+    }
+   
+    .nav__link span {
+        font-size: 2rem;
+    }
+}
