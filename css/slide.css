@@ -126,3 +126,36 @@
 #radio6:checked ~ .navegador-auto .auto-btn6 {
     background-color: #ff0000;
 }
+
+@media screen and (max-width: 600px){
+    .slider {
+        margin: 40px auto;
+        max-width: 500px;
+        max-height: 250px;
+    }
+
+    .slides {
+        height: 250px;
+    }
+
+    .slide img {
+        width: 500px;
+    }
+
+    .manual-navegador {
+        position: absolute;
+        width: 500px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegador-auto {
+        position: absolute;
+        width: 500px;
+        margin-top: 210px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
