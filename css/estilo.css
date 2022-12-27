@@ -31,7 +31,7 @@ header {
     display: flex;
     background-image: linear-gradient(to right, rgb(0, 0, 0), #191919);
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.356);
-    height: 100px;
+    height: 130px;
     width: 100vw;
 }
 
@@ -40,7 +40,7 @@ li {
 }
 
 .logo {
-    display: block;
+    display: flex;
     height: 100%; 
     max-width: 160px;
     padding: 20px;
@@ -61,7 +61,7 @@ hr {
 h1 {
     display: block;
     font-family: 'Faster One', cursiva;
-    font-size: 4em;
+    font-size: min(4em, 09vw);
     margin: 40px auto;
     max-width: 1200px;
     text-align: center;

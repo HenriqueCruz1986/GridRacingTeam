@@ -9,30 +9,29 @@
 
 /* MENU */
 .nav {
-    width: 35em;
-    height: 7em;
+    width: 100vw;
+    height: 8em;
     padding: 0 1em 0 0;
 
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 
     position: relative;
-    margin: 0 0 0 30vw;
     overflow: hidden;
 }
 
 .nav__links {
-    width: 100%;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .nav__link a {
     color: #fff;
     opacity: 0.5;
-    padding: 0 50px;
+    padding: 0 40px;
 }
 
 .nav__link span {
@@ -57,7 +56,7 @@
 .nav__light::before {
     content: '';
     width: 7em;
-    height: 6em;
+    height: 8em;
     position: absolute;
     top: .4em;
     background: linear-gradient(to bottom, rgba(255,255,255,.3)-50%, rgba(255,255,255,0)90%);
@@ -104,18 +103,18 @@
     background-color: var(--contact);
 }
 
-@media screen and (max-width: 600px) {
-    .nav {
-        width: 14em;
-        height: 7em;
-        padding: 0 .5em 0 0;
+@media screen and (max-width: 768px){   
+    .nav__link a {
+        padding: 0 25px;
     }
 
-    .nav__link a {
-        padding: 0 20px;
-    }
-   
     .nav__link span {
         font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px){   
+    .nav__link a {
+        padding: 0 70px;
     }
 }
