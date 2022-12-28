@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Faster One';
+    src: url(../fonts/Faster_One/FasterOne-Regular.ttf);
+}
+
+:root {
+    --tab: #191919;
+    --home: #00f7ff;
+    --piloto: #ff0000;
+    --contact: #adff2f;
+}
+
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(167, 164, 164);
+    overflow-x: hidden;
+}
+
+/* CABEÇALHO */
+header {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), #191919);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.356);
+    height: 110px;
+    width: 100vw;
+}
+
+li {
+    display: inline-block;
+}
+
+.logo {
+    display: flex; 
+    padding: 20px;
+    position: relative;   
+}
+
+header > div.logo > img {
+    max-width: 30vw;
+    max-height: 10vh;
+}
+
+hr {
+    color: #ff000042;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+h1 {
+    display: block;
+    font-family: 'Faster One', cursiva;
+    font-size: min(4em, 09vw);
+    margin: 40px auto;
+    max-width: 1200px;
+    text-align: center;
+    text-shadow: 0px .5px 3px #ff0000c7;
+}
+
+div.wrapper {
+    background-color: #191919;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgb(112, 5, 5), rgb(68, 68, 68));
+    color: rgb(228, 227, 227);
+    text-align: center;
+    margin: 100px 0 30px 0;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid black;
+}
+
+p {
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 35px;
+    text-indent: 30px;
+    padding: 10px;
+}
