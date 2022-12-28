@@ -127,7 +127,40 @@
     background-color: #ff0000;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 499px){
+    .slider {
+        margin: 40px auto;
+        max-width: 340px;
+        max-height: 290px;
+    }
+
+    .slides {
+        height: 170px;
+    }
+
+    .slide img {
+        width: 340px;
+    }
+
+    .manual-navegador {
+        position: absolute;
+        width: 340px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegador-auto {
+        position: absolute;
+        width: 340px;
+        margin-top: 130px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
     .slider {
         margin: 40px auto;
         max-width: 500px;

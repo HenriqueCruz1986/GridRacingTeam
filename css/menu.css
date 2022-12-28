@@ -103,7 +103,26 @@
     background-color: var(--contact);
 }
 
-@media screen and (max-width: 768px){   
+@media screen and (max-width: 499px){   
+    .nav__link a {
+        padding: 0 15px;
+    }
+
+    .nav__link span {
+        font-size: 1.7rem;
+    }
+
+    .nav__light {
+        width: 3.5em;
+    }
+
+    .nav__light::before {
+        width: 5em;
+        height: 8em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){   
     .nav__link a {
         padding: 0 25px;
     }

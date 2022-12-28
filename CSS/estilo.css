@@ -31,8 +31,8 @@ header {
     display: flex;
     background-image: linear-gradient(to right, rgb(0, 0, 0), #191919);
     box-shadow: 0 1em 2em rgba(0, 0, 0, 0.356);
-    height: 130px;
-    width: 100%;
+    height: 110px;
+    width: 100vw;
 }
 
 li {
@@ -40,15 +40,14 @@ li {
 }
 
 .logo {
-    display: flex;
-    height: 100%; 
-    max-width: 160px;
+    display: flex; 
     padding: 20px;
     position: relative;   
 }
 
 header > div.logo > img {
-    max-width: 160px;
+    max-width: 30vw;
+    max-height: 10vh;
 }
 
 hr {
