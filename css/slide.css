@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /* SLIDES */
 .slider {
-    margin: 40px auto;
+    margin: 60px auto;
     max-width: 800px;
     max-height: 400px;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.589);
     border-radius: 20px;
     box-shadow: 0px 0px 25px #ff0000;
-
 }
 
 .slides {
     width: 400%;
     height: 400px;
     display: flex;
+
 }
 
 .slides input {
@@ -129,7 +129,6 @@
 
 @media screen and (max-width: 499px){
     .slider {
-        margin: 40px auto;
         max-width: 340px;
         max-height: 290px;
     }
@@ -162,7 +161,6 @@
 
 @media screen and (min-width: 500px) and (max-width: 650px){
     .slider {
-        margin: 40px auto;
         max-width: 500px;
         max-height: 250px;
     }
@@ -195,7 +193,6 @@
 
 @media screen and (min-width: 650px) and (max-width: 768px){
     .slider {
-        margin: 40px auto;
         max-width: 600px;
         max-height: 320px;
     }
@@ -227,7 +224,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     .slider {
-        margin: 40px auto;
         max-width: 700px;
         max-height: 360px;
     }
