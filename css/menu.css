@@ -56,7 +56,7 @@
 .nav__light::before {
     content: '';
     width: 7em;
-    height: 8em;
+    height: 6.5em;
     position: absolute;
     top: .4em;
     background: linear-gradient(to bottom, rgba(255,255,255,.3)-50%, rgba(255,255,255,0)90%);
