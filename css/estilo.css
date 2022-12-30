@@ -95,6 +95,30 @@ p {
     margin: 20px 40px;
 }
 
+.btn a {
+    text-decoration: none;
+}
+
+.btn input {
+    display: block;
+    margin: auto;
+    background-color: red;
+    padding: 25px;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #191919;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px white;
+}
+
+.btn input:hover {
+    background-color: #191919;
+    color: white;
+    text-shadow: 0 0 10px #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
 footer {
     background-image: linear-gradient(to left, rgb(0, 0, 0), #191919);
     margin: 60px 0 -20px 0;
