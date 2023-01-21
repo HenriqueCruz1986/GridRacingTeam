@@ -30,8 +30,10 @@ ul#album-fotos li span {
 	text-shadow: 1px 1px 1px #000000;
 	background-color: rgba(255, 0, 0, 0.3);
 	font-size: 9pt;
-	line-height: 550px;
     padding-left: 10px;
+
+	position: relative;
+	top: 85%;
 }
 
 ul#album-fotos li:hover {
@@ -41,6 +43,10 @@ ul#album-fotos li:hover {
 
 ul#album-fotos li:hover span{
 	opacity: 1;
+}
+
+ul#album-fotos .esq {
+	display: none;
 }
 
 ul#album-fotos li#foto01 {
@@ -227,4 +233,12 @@ ul#album-fotos li#foto15 {
 ul#album-fotos li#foto15:hover {
 	background-position: 0px 0px;
 	background-size: 300px 300px;
+}
+
+/* CARD */
+
+.face {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
